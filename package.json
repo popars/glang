@@ -1,0 +1,37 @@
+{
+  "name": "@glang/plugin",
+  "version": "1.0.2",
+  "description": "A build-time localization plugin for Next.js and Nuxt.js that fetches translations from g.ars.world",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "localization",
+    "i18n",
+    "t9n",
+    "nextjs",
+    "nuxtjs",
+    "translation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/popars/glang.git"
+  },
+  "bugs": {
+    "url": "https://github.com/popars/glang/issues"
+  },
+  "homepage": "https://github.com/popars/glang#readme",
+  "author": "ars33",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "cross-fetch": "^4.1.0",
+    "eslint": "^8.56.0",
+    "jest": "^29.7.0",
+    "mock-fs": "^5.5.0",
+    "ts-jest": "^29.3.1"
+  }
+}

@@ -1,0 +1,34 @@
+# Логи
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Директории и файлы окружения
+node_modules/
+.DS_Store
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Директория сборки
+dist/
+build/
+coverage/
+
+# IDE и редакторы
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Тестовая директория
+test/tmp/
+
+# Дополнительные файлы
+*.tmp
+*.bak
