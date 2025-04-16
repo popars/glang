@@ -30,19 +30,3 @@ jobs:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         flag-name: run-${{ github.run_id }}
         parallel: false
-
-  coverage-badge:
-    needs: test
-    runs-on: ubuntu-latest
-    
-    steps:
-    - name: Generate coverage badge
-      uses: schneegans/dynamic-badges-action@v1
-      with:
-        auth: ${{ secrets.GITHUB_TOKEN }}
-        branch: main
-        datatype: json
-        url: https://coveralls.io/repos/github/popars/glang/badge.json?branch=main
-        label: coverage
-        output: badges/coverage.json
-        interval: 86400
