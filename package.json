@@ -1,6 +1,6 @@
 {
   "name": "@glang/plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A build-time localization plugin for Next.js and Nuxt.js that fetches translations from g.ars.world",
   "main": "src/index.js",
   "scripts": {

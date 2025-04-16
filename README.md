@@ -3,8 +3,8 @@
 [![npm version](https://img.shields.io/npm/v/glang.svg)](https://www.npmjs.com/package/@glang/plugin)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![npm downloads](https://img.shields.io/npm/dm/glang)](https://npm-stat.com/charts.html?package=@glang/plugin)
-[![Tests](https://github.com/your-username/glang/actions/workflows/tests.yml/badge.svg)](https://github.com/your-username/glang/actions/workflows/tests.yml)
-[![Coverage](https://coveralls.io/repos/github/your-username/glang/badge.svg?branch=main)](https://coveralls.io/github/your-username/glang?branch=main)
+[![Tests](https://github.com/popars/glang/actions/workflows/tests.yml/badge.svg)](https://github.com/popars/glang/actions/workflows/tests.yml)
+[![Coverage](https://coveralls.io/repos/github/popars/glang/badge.svg?branch=main)](https://coveralls.io/github/popars/glang?branch=main)
 
 A build-time localization solution for modern JavaScript frameworks that automatically fetches and injects translations during the build process.
 
